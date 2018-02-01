@@ -18,13 +18,16 @@ namespace DBSecond
             user.MFUserName = "Timur";
             db.MFUser.Add(user);
             db.SaveChanges();
+           
+
+            MFUser user2 = db.MFUser.FirstOrDefault(f => f.Id == 2);
+            user2.MFUserName = "new Name";
+            db.SaveChanges();
+
             foreach (MFUser item in db.MFUser)
             {
                 Console.WriteLine(item.Id + "\t" + item.DOB + "\t" + item.MFUserName);
             }
-
-
-
         }
     }
 

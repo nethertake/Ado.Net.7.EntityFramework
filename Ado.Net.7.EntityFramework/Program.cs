@@ -12,15 +12,10 @@ namespace Ado.Net._7.EntityFramework
         
         static void Main(string[] args)
         {
-            using (mscEntity db = new mscEntity())
-            {
-                foreach (User user in db.Users.ToList())
-                {
-                    Console.WriteLine(user.UserId);
-                }
+            mscEntity db = new mscEntity();
+            db.Database.Log = (s=>System.Diagnostics.Debug.WriteLine(s));
 
 
-            }
         }
 
         static void Exmpl01()
