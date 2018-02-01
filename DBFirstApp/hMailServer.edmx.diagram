@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4cd8874023d2471eaeac04dfdd30840f" Name="Diagram1">
+        <EntityTypeShape EntityType="hMalServerModel.AF_Users" Width="1.5" PointX="12.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.AFCity" Width="1.5" PointX="7.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.AT_Citys" Width="1.5" PointX="5.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.AT_Laboratorys" Width="1.5" PointX="8" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.AT_Roles" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.AT_Tests" Width="1.5" PointX="10.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.AT_Users" Width="1.5" PointX="15" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_accounts" Width="1.5" PointX="14.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_acl" Width="1.5" PointX="14.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_aliases" Width="1.5" PointX="0.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_blocked_attachments" Width="1.5" PointX="9.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_distributionlists" Width="1.5" PointX="2.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_distributionlistsrecipients" Width="1.5" PointX="4.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_dnsbl" Width="1.5" PointX="6.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_domain_aliases" Width="1.5" PointX="8.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_domains" Width="1.5" PointX="10.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_fetchaccounts" Width="1.5" PointX="16.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_fetchaccounts_uids" Width="1.5" PointX="16.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_greylisting_triplets" Width="1.5" PointX="17.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_greylisting_whiteaddresses" Width="1.5" PointX="17.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_group_members" Width="1.5" PointX="16.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_groups" Width="1.5" PointX="2.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_imapfolders" Width="1.5" PointX="4.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_incoming_relays" Width="1.5" PointX="18.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_message_metadata" Width="1.5" PointX="6.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_messagerecipients" Width="1.5" PointX="18.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_messages" Width="1.5" PointX="12.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_routeaddresses" Width="1.5" PointX="18.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_routes" Width="1.5" PointX="18.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_rule_actions" Width="1.5" PointX="0.75" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_rule_criterias" Width="1.5" PointX="19.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_rules" Width="1.5" PointX="19.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_securityranges" Width="1.5" PointX="20.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_servermessages" Width="1.5" PointX="20.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_settings" Width="1.5" PointX="20.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_sslcertificates" Width="1.5" PointX="14.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_surblservers" Width="1.5" PointX="20.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_tcpipports" Width="1.5" PointX="20.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_whitelist" Width="1.5" PointX="21.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.pn_city" Width="1.5" PointX="21.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.pn_laboratory" Width="1.5" PointX="16.75" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.pn_roles" Width="1.5" PointX="22.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.pn_tbl_user" Width="1.5" PointX="2.75" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.pn_tests" Width="1.5" PointX="4.75" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.Prefixes" Width="1.5" PointX="15" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.RA_Laboratories" Width="1.5" PointX="0.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.RA_Roles" Width="1.5" PointX="6.75" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.RA_Tests" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.RA_TestTypes" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.RA_Users" Width="1.5" PointX="8.75" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.SE_Cities" Width="1.5" PointX="22.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.SE_Laboratories" Width="1.5" PointX="22.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.SE_Roles" Width="1.5" PointX="22.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.SE_Users" Width="1.5" PointX="22.75" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.Sep_City" Width="1.5" PointX="5.5" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.Sep_HistoryTestUser" Width="1.5" PointX="12.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.Sep_Laboratory" Width="1.5" PointX="7.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.Sep_Role" Width="1.5" PointX="7.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.Sep_Test" Width="1.5" PointX="10" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.Sep_Users" Width="1.5" PointX="10" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.STI_Roles" Width="1.5" PointX="23.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.STI_Users" Width="1.5" PointX="23.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.sysdiagrams" Width="1.5" PointX="10.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.Tbl_Checks" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.Tbl_Customers" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.Tbl_Numbers" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.Tbl_Operators" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.Tbl_Prefixes" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.ZK_Roles" Width="1.5" PointX="12.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.ZK_Users" Width="1.5" PointX="22.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.AF_Book" Width="1.5" PointX="24.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.AFAnaliz" Width="1.5" PointX="24.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.AFLabs" Width="1.5" PointX="24.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.AFUsers" Width="1.5" PointX="14.75" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.book_table" Width="1.5" PointX="16.75" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_dbversion" Width="1.5" PointX="24.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hMalServerModel.hm_logon_failures" Width="1.5" PointX="18.75" PointY="24.875" IsExpanded="true" />
+        <AssociationConnector Association="hMalServerModel.FK_AT_Laboratorys_AT_Citys" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_AT_Tests_AT_Laboratorys" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_AT_Users_AT_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_RA_Tests_RA_Laboratories" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_RA_Tests_RA_TestTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_Sep_Laboratory_Sep_City" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_Sep_HistoryTestUser_Sep_Test" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_Sep_HistoryTestUser_Sep_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_Sep_Test_Sep_Laboratory" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_Sep_Users_STI_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_Tbl_Checks_Tbl_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_Tbl_Checks_Tbl_Numbers" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_Tbl_Checks_Tbl_Operators" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_Tbl_Numbers_Tbl_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="hMalServerModel.FK_Tbl_Prefixes_Tbl_Prefixes" ManuallyRouted="false" />
+      </Diagram>
+      <Diagram DiagramId="9b784a1786f34671bbcf24f8eb7d63f9" Name="Diagram2" >
+        <EntityTypeShape EntityType="hMalServerModel.Operators" Width="1.5" PointX="0.75" PointY="0.75" FillColor="128, 128, 255" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
